@@ -18,7 +18,7 @@ a1 is the rate of bunnies eating the plants.
 a2 is the rate of lynxes eating the bunnies.
 
 #### the d parameters refer to the deaths
-#d1 is the death of the bunnies (excluding being eaten by lynx).
-#d2 is the death of the lynxes (only way for lynx to exit the system).
+d1 is the death of the bunnies (excluding being eaten by lynx).
+d2 is the death of the lynxes (only way for lynx to exit the system).
 
 
