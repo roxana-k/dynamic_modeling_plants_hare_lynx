@@ -1,4 +1,4 @@
-# Dynamic Modeling Plants/Hare/Lynx
+# Dynamic Modeling Plants-Hare-Lynx
 This code describes a three-species ecological food chain using a system of ordinary differential equations (ODEs). The model tracks the rate of change in the population sizes of plants (dydt[0]), hares (dydt[1]), and lynx (dydt[2]) over time
 
 ## The Model
