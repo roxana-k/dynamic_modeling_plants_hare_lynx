@@ -6,8 +6,8 @@ The code describes the rate of change in population over time of plant, hare and
 The code involves several parameters. 
 
 #### General parameters
-t : time. 
-y : vector containing population. 
+t: time in months. 
+y: vector containing population of plants, hares, and lynx. 
 
 #### The b parameters refer to how full the two animals are 
 b1 is the maximum amount of plants that can be eaten.
