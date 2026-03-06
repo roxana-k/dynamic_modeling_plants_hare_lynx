@@ -13,7 +13,7 @@ The code involves several parameters.
 
 #### General parameters
 t: time in months. 
-y: The state vector containing the current populations of [plants, hares, lynx].
+y: the state vector containing the current populations of [plants, hares, lynx].
 
 #### The b parameters refer to how full the two animals are 
 They determine how quickly the hares (b1) and lynx (b2) get full. 
