@@ -16,15 +16,14 @@ t: time in months.
 y: The state vector containing the current populations of [plants, hares, lynx].
 
 #### The b parameters refer to how full the two animals are 
-b1 is the maximum amount of plants that can be eaten.
-b2 is the maximum amount of bunnies that can be eaten.
+They determine how quickly the hares (b1) and lynx (b2) get full. 
+Higher values mean the animals reach satiation faster, capping their maximum consumption rate.
 
 #### The a parameters refer to 'how efficient [animal] is at eating ___'
 a1 is how effectively hares hunt plants.
 a2 is how effectively lynx hunt hares.
 
 #### The d parameters refer to the deaths
-d1 is the death of the bunnies (excluding being eaten by lynx).
-d2 is the death of the lynxes (only way for lynx to exit the system).
+The natural death rates of the hares (d1) and lynx (d2), independent of predation.
 
 
