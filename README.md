@@ -1,2 +1,4 @@
-# dynamic_modeling_plants_hare_lynx
+# Dynamic Modeling Plants/Hare/Lynx
 working on understanding dynamic models 
+
+
