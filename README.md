@@ -1,6 +1,12 @@
 # Dynamic Modeling Plants/Hare/Lynx
-The code describes the rate of change in population over time of plant, hare and lynx. The first derivative dydt[0] over time describes the plant evolution, the second dydt[1] describes the hare's and the last describes the lynxes dydt[2] population. They follow chaotic behavior, since it is a three-species model.
+This code describes a three-species ecological food chain using a system of ordinary differential equations (ODEs). The model tracks the rate of change in the population sizes of plants (dydt[0]), hares (dydt[1]), and lynx (dydt[2]) over time
 
+## The Model
+Plants: Grow independently up to a natural carrying capacity (logistic growth) but are continuously grazed by hares.
+Hares: Grow solely by consuming plants. Their population decreases through natural mortality and by being hunted by the lynx.
+Lynx: As apex predators, they grow strictly by consuming hares and decline solely through natural mortality.
+
+The predator-prey interactions follow a "Holling Tanner" model. This means predators cannot eat infinite amounts of prey; their consumption slows down as they get "full". Also the hares get full at one point and will stop grazing. 
 
 ### Parameters 
 The code involves several parameters. 
