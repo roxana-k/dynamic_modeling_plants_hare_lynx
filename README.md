@@ -13,15 +13,15 @@ The code involves several parameters.
 
 #### General parameters
 t: time in months. 
-y: vector containing population of plants, hares, and lynx. 
+y: The state vector containing the current populations of [plants, hares, lynx].
 
 #### The b parameters refer to how full the two animals are 
 b1 is the maximum amount of plants that can be eaten.
 b2 is the maximum amount of bunnies that can be eaten.
 
 #### The a parameters refer to 'how efficient [animal] is at eating ___'
-a1 is the rate of bunnies eating the plants.
-a2 is the rate of lynxes eating the bunnies.
+a1 is how effectively hares hunt plants.
+a2 is how effectively lynx hunt hares.
 
 #### The d parameters refer to the deaths
 d1 is the death of the bunnies (excluding being eaten by lynx).
