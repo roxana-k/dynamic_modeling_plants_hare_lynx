@@ -2,7 +2,7 @@
 The code describes the rate of change in population over time of plant, hare and lynx. The first derivative dydt[0] over time describes the plant evolution, the second dydt[1] describes the hare's and the last describes the lynxes dydt[2] population. They follow chaotic behavior, since it is a three-species model.
 
 
-#### Parameters 
+### Parameters 
 The code involves several parameters. 
 
 #### General parameters
