@@ -21,7 +21,7 @@ a2: how effectively lynx hunt hares.
 
 #### Satiation constants (b) 
 b1 and b2 determine how quickly hares and lynx become satiated.
-Higher values mean the animals reach satiation faster, limiting their maximum consumption rate.
+Higher values mean the animals reach satiation faster.
 
 #### Natural death rates (d) 
 d1 and d2 represent the natural death rates of hares and lynx, independent of predation.
