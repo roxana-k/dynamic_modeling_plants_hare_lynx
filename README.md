@@ -15,12 +15,12 @@ The model uses several parameters for the interactions between plants, hares, an
 t: time in months. 
 y: the state vector containing the current populations of [plants, hares, lynx].
 
-#### Consumption efficiency (a)
-a1: how effectively hares consume plants. 
-a2: how effectively lynx consume hares.  
+#### Attack Rate (a)
+a1: how effectively hares hunt plants. 
+a2: how effectively lynx hunt hares.  
 
 #### Satiation constants (b) 
-b1 and b2 determine how quickly hares and lynx become satiated and how successful their hunting or foraging is.
+b1 and b2 determine how quickly hares and lynx become satiated.
 Higher values mean the animals reach satiation faster, limiting their maximum consumption rate.
 
 #### Natural death rates (d) 
