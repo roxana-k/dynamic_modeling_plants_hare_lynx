@@ -6,7 +6,7 @@ Plants: Grow independently up to a natural carrying capacity (logistic growth) b
 Hares: Grow solely by consuming plants. Their population decreases through natural mortality and by being hunted by the lynx.
 Lynx: As apex predators, they grow strictly by consuming hares and decline solely through natural mortality.
 
-The predator-prey interactions follow a "Holling Tanner" model. This means predators cannot eat infinite amounts of prey; their consumption slows down as they get "full". Hares also become satiated and therefore stop grazing once their consumption limit is reached. 
+The predator-prey interactions follow a "Holling Type II" model. This means predators cannot eat infinite amounts of prey; their consumption slows down as they get "full". Hares also become satiated and therefore stop grazing once their consumption limit is reached. 
 
 ### Parameters 
 The model uses several parameters for the interactions between plants, hares, and lynx: 
